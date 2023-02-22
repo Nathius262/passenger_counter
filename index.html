@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to JavaScripts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="section">
+        <div class="main">
+            <h1>Passenger Conter App</h1>
+            <h2><span>Count: </span><span id="conter">0</span></h2>
+        </div>
+        <div class="sub_main">
+            <button class="btn" id="increment_btn" onclick="incrementCount()"> Increase counter</button>
+            <button class="btn" id="decrement_btn" onclick="decrementCount()">Decrease conter</button>
+        </div> 
+        <div class="row">
+            <button class="btn" id="save_btn" onclick="save()">save</button>
+        </div>
+        
+        <div class="row">
+            <p id="entries">Previous Entries: </p>
+        </div> 
+    </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>
